@@ -380,3 +380,98 @@ form .btn-enviar input[type=submit]:hover{
     color: #fcfcfcee;
     
     }
+
+@media screen and (max-width:1218px){
+
+
+/*CLASSES GERAIS */
+.flex{
+    flex-direction:column;
+}
+.topo-do-site .flex{
+
+    flex-direction: column-reverse;
+}
+    /*CABEÇALHO*/
+.menu-desktop, .btn-contato{
+display: none;
+ 
+    }
+/*TOPO DO SITE*/
+
+h1{
+    
+font-size: 15px;
+}
+
+section .portifolio {
+padding: 50px 2%;
+box-shadow: 0 0 40px 10px #504e4e87;
+border-radius: 30px;
+}
+
+.sobre .txt-sobre p{
+
+    margin: 25px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.sobre .txt-sobre h2 span{
+font-size: 25px;
+
+}
+
+section .topo-site{
+
+    padding: 20px 8%;
+
+}
+
+.topo-do-site .img-topo-site img {
+    width: 100%;
+}
+section.sobre .flex{
+    gap: 30px;
+    
+    }
+    section.formulario{
+        padding: 50px 4%;
+        
+        }
+
+
+        section.especialidades{
+            padding: 40px 8%;
+        }
+
+        form{
+        gap: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+        }
+        form input,form textarea{
+        background-color: #00ff08;
+        color: black;
+        }
+        
+        form textarea{
+        resize: none;
+        max-height: 200px;
+        }
+
+
+        .sobre .txt-sobre .btg-social button{
+
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            font-size: 30px;
+            margin: 0 2px;
+            transition: .2s;
+        }  
+
+
+
+}
