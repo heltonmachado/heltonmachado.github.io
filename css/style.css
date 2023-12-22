@@ -12,7 +12,6 @@
     height: 100vh;
     }
     .flex{
-    
         display: flex;
         align-items: center;
         justify-content: center;
@@ -26,18 +25,17 @@
         box-shadow: 0px 0px 8px #00ff08b3;
         transform: scale(1.05);
         }
-   
     /* ESTILO DO CABEÇALHO */
     
     header{
     padding: 40px 4%;
     }
+
     header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 90px;
-    
     }
     
     header a{
@@ -52,30 +50,29 @@
     }
     
     header a:hover{
-        color: #00ff08;
-         
+    color: #00ff08;   
     }
+
     header nav ul{
     list-style-type: none; /* tira a marca de link */
     }
     
     header nav ul li{
-        display: inline-block; /* display: inline-block; colocar menu um dolado do outro  */
-        padding: 7px 20px ; /* espaçamento entre eles padding 0 40px */
-        border-radius: 10px;
-        cursor:pointer;
-        line-height: 14px;
-        margin:10px 10px;
-        font-size: 17px;
-        transition: 400ms;
-        
+    display: inline-block; /* display: inline-block; colocar menu um dolado do outro  */
+    padding: 7px 20px ; /* espaçamento entre eles padding 0 40px */
+    border-radius: 10px;
+    cursor:pointer;
+    line-height: 14px;
+    margin:10px 10px;
+    font-size: 17px;
+    transition: 400ms;    
     }
+
     header nav ul li:hover{
-        color: #00ff08;
-        transform: scale(1.10);
-        box-shadow: 0 0 15px green;
+    color: #00ff08;
+    transform: scale(1.10);
+    box-shadow: 0 0 15px green;
     }
-    
     
 .btn-contato button{
         padding: 10px 15px;
@@ -88,15 +85,10 @@
         border-radius: 30px;
         cursor: pointer;
         transition: .2s;
-        font-weight: 700;
-        
+        font-weight: 700;   
     }
 
-
-       
-
-
-    h2.titulo{
+h2.titulo{
 color: white;
 font-size: 25px;
 text-align: center;
@@ -105,12 +97,15 @@ text-align: center;
 span{
     color: #00ff08;
 }
+
 section.especialidades{
     padding: 40px 4%;
 }
+
 section.especialidades .flex{
     gap: 60px;
 }
+
 .especialidades .especialidades-box{
  color: white;
  padding: 40px;
@@ -119,30 +114,29 @@ section.especialidades .flex{
  transition: 0.3s;
  cursor: pointer;
 }
+
 .especialidades .especialidades-box i{
 font-size: 48px;
 color: #00ff08;
+}
 
-}
 .especialidades .especialidades-box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.492);
+transform: scale(1.05);
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.492);
 }
+
 .especialidades .especialidades-box h3{
 font-size: 48px;
 margin: 15px 0;
-
 }
 
-
-    h1{
+ h1{
         color: azure;
         font-size: 28px;
         line-height: 20px;
         padding-top: 20%;
         text-align: center;
-        margin: 20px 0; 
-       
+        margin: 20px 0;  
     }
     
     p{
@@ -153,7 +147,6 @@ margin: 15px 0;
         display: flex;
         margin:10px 0;
         text-align: center;
-       
         
     }
      /*Estilo do topo do top do site*/ 
@@ -162,12 +155,13 @@ margin: 15px 0;
     
         padding: 50px 3%;
         padding-top: 0px;
-        padding-left: 1%;
-         
+        padding-left: 1%;   
     }
+
     span{
         color: #00ff08; 
      }
+
      .topo-do-site .img-topo-site img {
     position: relative;
     animation: frutuar 2s ease-in-out infinite alternate;
@@ -187,13 +181,13 @@ margin: 15px 0;
  /*Estilo icones*/   
 
 .topo-do-site{
-    padding: 40px 4%; 
-    
+    padding: 40px 4%;   
 }
 
 .topo-do-site .txt-top-site{
 text-align: center;
 }
+
 .tecnologia-icones {
  color: white;
  padding: 20px;
@@ -204,6 +198,7 @@ text-align: center;
  padding: auto;
  text-align: center;
 }
+
 .tecnologia-icones i{
 font-size: 48px;
 color: #00ff08;
@@ -214,45 +209,40 @@ text-align:center;
 .topo-do-site .tecnologia-icones:hover{
 transform: scale(1.05);
 box-shadow: 0 0 10px #cdc8c8;
-
 }
 
 .interface {
 font-size: 48px;
 margin: 15px 0;
-
 }
    
 /*ESTILO DO SOBRE*/
 
 section.sobre{
 padding: 80px 4%;
-
 }
+
 section.sobre .flex{
 align-items: center;
 gap: 60px;
-
-}
-section .interface{
-
 }
 
 .sobre .txt-sobre{ 
  color: white;   
 }
+
 .sobre .txt-sobre h2{
 font-size: 30px;
 line-height: 40px;
 margin-bottom: 30px;
 }
+
 .sobre .txt-sobre h2 span{
 color: #00ff08;
 display: block;
 }
 
 .sobre .txt-sobre p{
-
     color: white;
     margin: 25px 0;
     text-align: justify;
@@ -293,12 +283,12 @@ margin-top: 60px;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
- 
 }
 
 .img-port:hover{
     background-position: 100% 100%;
 }
+
 .overlay{
 
     position: absolute;
@@ -318,7 +308,6 @@ margin-top: 60px;
     transition: .5s;
 }
 .overlay:hover{
-
 opacity: 1;
 }
 
@@ -326,8 +315,8 @@ opacity: 1;
 
 section.formulario{
 padding: 80px 4%;
-
 }
+
 form{
 max-width: 500px;
 margin: 0 auto;
@@ -337,6 +326,7 @@ flex-direction: column;
 gap: 15px;
 margin-top: 40px;
 }
+
 form input,form textarea{
 width: 100%;
 background-color: #090909a8;
@@ -378,12 +368,9 @@ form .btn-enviar input[type=submit]:hover{
 
 #direitos{
     color: #fcfcfcee;
-    
     }
 
 @media screen and (max-width:1218px){
-
-
 /*CLASSES GERAIS */
 .flex{
     flex-direction:column;
